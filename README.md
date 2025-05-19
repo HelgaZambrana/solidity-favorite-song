@@ -10,7 +10,7 @@ Un smart contract pensado para ser desplegado y verificado en la testnet Sepolia
 ## Cómo usarlo
 
 - Compilar y hacer un deploy en Remix IDE.
-- Verificar el contrato manualmente pegando el código en el verificador de contratos de [sepolia.etherscan.io](https://sepolia.etherscan.io):
+- Verificar el contrato manualmente pegando el código en el verificador de contratos de [sepolia.etherscan.io](https://sepolia.etherscan.io).
 - Una vez que el contrato está verificado, ingresar a la pestaña Write Contract y hacer clic en Connect to Web (pide conectar MM). 
 - Buscar setFavoriteSong y escribir una canción favorita:
 
