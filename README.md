@@ -1,6 +1,6 @@
 # 🎵 FavoriteSong Smart Contract 
 
-Es un smart contract desplegado en la testnet Sepolia.
+Un smart contract desplegado en la testnet Sepolia.
 
 ## Funcionalidad
 
