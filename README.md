@@ -21,7 +21,7 @@ Una vez que el contrato está verificado, ingresar a la pestaña Write Contract 
 ```solidity
 "The Only One I Know - The Charlatans"
 ```
-Hacé clic en Write y confirmá la transacción en MM.
+Hacer clic en Write y confirmar la transacción en MM.
 
 Para consultar la canción favorita de una dirección, ingresar en la pestaña Read Contract, buscar favoriteSongs, pegar una address
 ```solidity
