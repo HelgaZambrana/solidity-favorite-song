@@ -1,6 +1,6 @@
 # 🎵 FavoriteSong Smart Contract 
 
-Un smart contract desplegado en la testnet Sepolia.
+Un smart contract pensado para ser desplegado y verificado en la testnet Sepolia.
 
 ## Funcionalidad
 
@@ -8,20 +8,6 @@ Un smart contract desplegado en la testnet Sepolia.
 - Cualquier persona puede consultar la canción favorita de cualquier dirección.
 
 ## Cómo usarlo
-Registrar tu canción favorita
-```solidity
-setFavoriteSong("The Only One I Know - The Charlatans")
-```
-
-Consultar la canción favorita de una dirección
-```solidity
-favoriteSongs(0x123...abcd)
-```
-## Red
-
-Este contrato está pensado para ser desplegado y verificado en la testnet Sepolia.
-
-## Verificación en Etherscan
 
 Verificar el contrato manualmente pegando este código en el verificador de contratos de [sepolia.etherscan.io](https://sepolia.etherscan.io):
 
@@ -30,6 +16,18 @@ Verificar el contrato manualmente pegando este código en el verificador de cont
 - Optimizador: Desactivado
 - License: MIT
 
-## Licencia
+Una vez que el contrato está verificado, ingresar a la pestaña Write Contract y hacer clic en Connect to Web (pide conectar MM). Buscar setFavoriteSong y escribir una canción favorita:
 
+```solidity
+"The Only One I Know - The Charlatans"
+```
+Hacé clic en Write y confirmá la transacción en MM.
+
+Para consultar la canción favorita de una dirección, ingresar en la pestaña Read Contract, buscar favoriteSongs, pegar una address
+```solidity
+0x123...abcd
+```
+Hacer clic en Query para ver el resultado.
+
+## Licencia
 MIT
