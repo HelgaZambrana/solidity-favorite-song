@@ -7,7 +7,7 @@ Un smart contract desplegado en la testnet Sepolia.
 - Cualquier persona puede registrar su canción favorita.
 - Cualquier persona puede consultar la canción favorita de cualquier dirección.
 
-# Cómo usarlo
+## Cómo usarlo
 Registrar tu canción favorita
 ```solidity
 setFavoriteSong("The Only One I Know - The Charlatans")
